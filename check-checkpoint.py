@@ -21,7 +21,7 @@ for key in checkpoint.keys():
 
 # Analyze the student model (main model)
 if 'student' in checkpoint:
-    print("\n🎓 Student model structure:")
+    print("\nStudent model structure:")
     student_weights = checkpoint['student']
     
     # Group keys by component
